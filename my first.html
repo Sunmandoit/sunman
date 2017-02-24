@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>陈超的个人网页</title>
+	<style>
+	html{
+		/*width: 100%;
+		height: 100%;*/
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		background:url(img/579aff863d344_1024.jpg);
+		background-size: 100%;
+		background-attachment: fixed;
+		/*width: 100%;
+		height: 100%;*/
+		padding: 0;
+		margin: 0;
+		perspective: 10000px;
+		/*background: black;*/
+		/*border: 1px solid red;*/
+		/*transform: scale(0.3);*/
+	}
+
+	.daohang div:hover{
+		background-size: 200%;
+	}
+	.bao-1{
+		width:1200px;
+		height: 500px;
+		transform-style: preserve-3d;
+		transform: rotateY(0deg);
+		margin: 200px auto;
+		/*transform-origin: left;*/
+		animation: breathe 60s linear 3s infinite forwards;
+	}
+	.bao-1 img{
+		width: 1180px;
+		height: 500px;
+		border:3px solid black;
+	}
+	.bao{
+/*perspective: 100px;*/
+		/*-webkit-filter:blur(10px);*/
+		width:1180px;
+		height: 500px;
+		margin: 0 auto;
+		backface-visibility:hidden;
+text-align: center;
+font-size: 50px;
+line-height: 180px;
+		transform-style: preserve-3d;
+		/*transform: rotateY(60deg);*/
+		/*position: absolute;*/
+		/*border: 1px solid red;*/
+		/*animation: breathe 10s linear 3s infinite alternate forwards;*/
+	}
+	.baodi{
+		width: 430px;
+		height: 430px;
+		/*background: red;*/
+		transform-style: preserve-3d;
+		border: 378px solid black;
+		position: absolute;
+		opacity: .7;
+		transform: rotateX(90deg) translateZ(87px);
+	}
+	.baodi div{
+		width: 394px;
+		height: 394px;
+		border: 3px solid black;
+		border-radius: 50%;
+		
+		background: red;
+		transform-style: preserve-3d;
+	}
+	.baodi>div{
+		transform: rotateX(90deg) translateY(-200px);
+		position: absolute;
+	}
+	.baodi>div div{
+		position: absolute;
+		/*transform: rotateX(90deg);*/
+	}
+	.bao0{
+		position: absolute;
+		top: 0;
+		border:1px solid;
+		transform: translateZ(592px);
+	}
+	.img0{
+		transform: translateZ(591.5px);
+		/*transform-origin: left;*/
+		opacity: .5;
+		position: absolute;
+		top: 0;
+	}
+	.bao1{
+		transform: rotateY(90deg) translateZ(592px);
+		/*transform-origin: left;*/
+		position: absolute;
+		top: 0;
+	}
+	.img1{
+		transform: rotateY(90deg) translateZ(591.5px);
+		/*transform-origin: left;*/
+		position: absolute;
+		top: 0;
+	}
+	.bao2{
+		transform: rotateY(-90deg) translateZ(592px);
+		/*transform-origin: right;*/
+		position: absolute;
+		top: 0;
+	}
+	.img2{
+		transform: rotateY(-90deg) translateZ(591.5px);
+		/*transform-origin: left;*/
+		position: absolute;
+		top: 0;
+	}
+	.bao3{
+		transform: rotateY(180deg) translateZ(592px);
+		position: absolute;
+		top: 0;
+
+		color: white;
+	}
+	.img3{
+		transform: rotateY(180deg) translateZ(591.5px);
+		/*transform-origin: left;*/
+		position: absolute;
+		top: 0;
+	}
+	.bao4{
+		transform: translateZ(0px);
+		margin-top: 890px;
+	}
+
+	@keyframes breathe{
+		from{
+			transform: rotateY(0deg);
+			/*-webkit-filter:blur(10px);*/
+		}
+		to{
+			/*-webkit-filter:blur(2px);*/
+			transform: rotateY(360deg);
+		}
+	}
+	#daohang{
+		position: absolute;
+		top: 300px;
+		left: 50%;
+		z-index: 2;
+		border: 3px solid black;
+		margin-left: -700px;
+		width: 1400px;
+		height: 1000px;
+		transition: all 2s ease 0s;
+		transform: scale(0.5) rotateY(0deg) translateZ(-4000px);
+		background:url(img/旋转bg.jpg) no-repeat top center;
+		/*background-attachment: fixed;*/
+		background-size: cover;
+	}
+		.box{
+			
+			position: absolute;
+			-webkit-filter:blur(0px);
+			transition: all 3s ease 0s;
+			border-radius: 50%;
+			margin-top: 100px;
+			/*transform: scale(0.5);*/
+		}
+		
+		.ceng1{
+			background: url(img/mywz4.jpg);
+			/*width: 600px;
+			height: 300px;
+top: 400px;left:400px; z-index: 10;
+opacity: 1;*/
+		}
+		.ceng2{
+			background: url(img/mywz0.jpg);
+			/*width: 500px;
+			height: 250px;
+			top: 300px;left:150px; 
+			z-index: 9;
+			opacity: .9;*/
+		}
+		.ceng3{
+			background: url(img/mywz11.jpg);
+			/*width: 500px;
+			height: 250px;
+			top: 300px;left:750px;
+			z-index: 9;
+			opacity: .9;*/
+		}
+		.ceng4{
+			background: url(img/mywz12.jpg);
+			/*width: 400px;
+			height: 200px;
+			top: 200px;left: 200px;
+			z-index: 8;
+			opacity: .7;*/
+		}
+		.ceng5{
+			background: url(img/mywz5.jpg);
+				/*width: 400px;
+			height: 200px;
+			top: 200px;left: 800px;
+			z-index: 8;
+			opacity: .7;*/
+		}
+		.ceng6{
+			background: url(img/mywz6.jpg);
+				/*width: 400px;
+			height: 200px;
+			top: 100px;left: 500px;
+			z-index: 7;
+			opacity: .5;*/
+		}
+		#leftJT{
+			position: absolute;
+			top: 350px;
+		}
+		#rightJT{
+			position: absolute;
+			top: 350px;
+			left: 1330px;
+		}
+		#music{
+			position: absolute;
+			left: 50%;
+			margin-left: -140px;
+			bottom: 0;
+		}
+		.zi{
+			width: 440px;
+			height: 440px;
+			position: absolute;
+			border: 3px solid black;
+			overflow: hidden;
+			background: url(img/才高八斗.png);
+			background-size: 550%;
+			top: 100%;
+			left: 50%;
+			margin-left: -222px;
+			transform-style: preserve-3d;
+			transform: translateZ(-370px);
+			/*backface-visibility:visible;*/
+			/*margin-top: -150px;*/
+
+		}
+		.cai{
+			background-position: 0% 10%;
+		}
+		.gao{
+			background-position: 60% 10%;
+		}
+		.ba{
+			
+			background-position: 20% 10%;
+		}
+		.dou{
+			background-position: 40% 10%;
+		}
+	</style>
+</head>
+<body>
+<div class="bao-1">
+<div class="bao0 bao baolan"><div class="cai zi"></div>新的时光，<br>奔向新的未来</div>
+<div class="bao1 bao baolan"><div class="gao zi"></div>天再高又怎样，踮起脚尖就更接近阳光。</div>
+<div class="bao2 bao baolan"><div class="ba zi"></div>我很穷，除了梦想，一无所有。<br>我把我的梦想铺在你的脚下，请放轻你的脚步，因为你正踩在我的梦想之上。</div>
+<div class="bao3 bao baolan"><div class="dou zi"></div>愿生命待你好，愿我们被这个世界温柔的对待。</div>
+<div class="baodi"><div id="qiu">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div></div>
+<img class="bao0 img0" src="img/bg.jpg" alt="">
+<img class="bao1 img1" src="img/bg.jpg" alt="">
+<img class="bao2 img2" src="img/bg.jpg" alt="">
+<img class="bao3 img3" src="img/bg.jpg" alt="">
+</div>
+<div id="daohang">
+<div id="music"><audio src="music/清漪+-+出师表.mp3" controls="controls" loop="loop">
+</audio></div>
+	<div class="ceng1 box"></div>
+	<div class="ceng2 box"></div>
+	<div class="ceng3 box"></div>
+	<div class="ceng4 box"></div>
+	<div class="ceng5 box"></div>
+	<div class="ceng6 box"></div>
+	<img id="leftJT" src="img/prev.png" alt="">
+	<img id="rightJT" src="img/next.png" alt="">
+</div>
+<div class="bao4 bao"></div>
+<div class="bao5 bao"></div>
+<div class="bao6 bao"></div>
+<div class="bao7 bao"></div>
+<div class="bao8 bao"></div>
+<div class="bao9 bao"></div>
+
+<script type="text/javascript">
+	var json=[
+	{
+			width: 600,
+			height: 300,
+			top: 400,
+			left:400,
+			index: 10,
+			opacity: 1
+	},
+	{
+			width: 500,
+			height: 250,
+			top: 300,left:150, 
+			index: 9,
+			opacity: .9
+	},
+	
+	{
+			width: 400,
+			height: 200,
+			top: 200,left: 200,
+			index: 8,
+			opacity: .7
+	},
+	{
+			width: 400,
+			height: 200,
+			top: 100,
+			left: 500,
+			index: 7,
+			opacity: .5
+	},
+	{
+			width: 400,
+			height: 200,
+			top: 200,left: 800,
+			index: 8,
+			opacity: .7
+	},
+	
+	{
+			width: 500,
+			height: 250,
+			top: 300,left:750,
+			index: 9,
+			opacity: .9
+	}
+	]
+	var leftJT=document.getElementById('leftJT');
+	var rightJT=document.getElementById('rightJT');
+	var boxs=document.getElementsByClassName('box');
+	var times=setInterval(function () {
+		// body...
+		json.push(json.shift());
+	var time=setInterval(function () {
+		// body...
+	for (var i = 0; i < boxs.length; i++) {
+		boxs[i].style.width=json[i].width+"px";
+		boxs[i].style.height=json[i].height+"px";
+		boxs[i].style.top=json[i].top+"px";
+		boxs[i].style.left=json[i].left+"px";
+		boxs[i].style.zIndex=json[i].index;
+		boxs[i].style.opacity=json[i].opacity;
+	}
+	
+	leftJT.onclick=function () {
+		// body...
+		
+		json.push(json.shift());
+	}
+	rightJT.onclick=function () {
+		// body...
+		json.unshift(json.pop());
+	}
+	},100)
+},4000)
+	leftJT.onmouseover=function () {
+		// body...
+		this.src="img/prev_1.png";
+		console.log(this.src);
+	}
+var baos = document.getElementsByClassName('bao');
+for (var i = 0; i < baos.length; i++) {
+	baos[i].style="background: url(img/mywz"+i+".jpg) no-repeat;background-size:cover;background-attachment: fixed;border:3px solid black;opacity:.8;"
+}
+var qiu=document.getElementById("qiu");
+var qius=qiu.getElementsByTagName('div');
+// console.log(qius);
+for (var i = 0; i < qius.length; i++) {
+	qius[i].style.transform="rotateY("+i*30+"deg) translateZ(0px)";
+}
+</script>
+</body>
+</html>
